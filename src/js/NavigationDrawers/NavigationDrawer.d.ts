@@ -65,6 +65,7 @@ export interface NavigationDrawerProps extends Props {
   temporaryIcon?: React.ReactElement<any>;
   persistentIcon?: React.ReactElement<any>;
   constantDrawerType?: boolean;
+  navClassName?: string;
 
   /**
    * @deprecated
